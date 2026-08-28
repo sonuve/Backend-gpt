@@ -20,9 +20,9 @@ app.get("/health", (req, res) => {
   });
 });
 
-app.get("/check", (req, res) => {
+app.get("/chec", (req, res) => {
   res.json({
-    message: "how is check",
+    message: "how is chec",
     success: "True",
   });
 });
