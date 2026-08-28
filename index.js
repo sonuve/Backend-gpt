@@ -20,6 +20,13 @@ app.get("/health", (req, res) => {
   });
 });
 
+app.get("/check", (req, res) => {
+  res.json({
+    message: "how is check",
+    success: "True",
+  });
+});
+
 const port = process.env.PORT || 8080;
 
 app.listen(port, () => {
